@@ -1,0 +1,19 @@
+title: Eli LeChien
+description: Showcasing my electrical engineering projects
+url: "https://elilechien.com"
+baseurl: ""
+
+author:
+  name: "Eli LeChien"
+  email: "eliaslechien@gmail.com"
+
+theme: "minimal-mistakes-jekyll"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
